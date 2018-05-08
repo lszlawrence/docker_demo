@@ -2,7 +2,7 @@ var http = require('http');
 var handleRequest = function(request, response) {
     console.log('Received request for URL: ' + request.url);
     response.writeHead(200);
-    response.end('Applied AI Xian Xian De');
+    response.end('Applied AI');
 };
 
 var www = http.createServer(handleRequest);
